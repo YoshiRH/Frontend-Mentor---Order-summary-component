@@ -1,0 +1,119 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.main_container{
+    position: relative;
+    width: 440px;
+    margin: 60px auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px #7878f744;
+}
+
+.photo_container{
+    margin: 0 0 20px 0;
+}
+
+.main_photo{
+    width: 100%;
+    margin: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bottom_container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px 48px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.description{
+    padding: 0 16px;
+    font-size: 14px;
+    color: gray;
+}
+
+.item_overview{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+
+.item_overview_main{
+    display: flex;
+    align-items: center;
+    gap:inherit;
+}
+
+.item_description{
+    text-align: left;
+}
+
+.music{
+    width: 40px;
+    height: 40px;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.secondary{
+    font-weight: 500;
+    color: gray;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+
+.btn{
+    padding: 12px 0;
+    font-size: 14px;
+    font-weight: 700;
+    border:none;
+    border-radius: 12px;
+}
+
+.btn_primary{
+    background-color: lightblue;
+    box-shadow: 0px 4px 12px #7878f744;
+}
+
+.btn_primary:hover{
+    background-color: aliceblue;
+    box-shadow: 0px 4px 12px #7878f744;
+}
+
+.btn_secondary{
+    background-color: transparent;
+}
+
+.btn_secondary:hover{
+    background-color: azure;
+    box-shadow: 0px 4px 12px #7878f744;
+}
